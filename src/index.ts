@@ -16,5 +16,7 @@ export * from './middlewares/validate-request';
 // * export all events codes
 export * from './events/base-listener';
 export * from './events/base-publisher';
+export * from './events/event-created-events';
+export * from './events/event-updated-events';
 export * from './events/subjects';
 export * from './events/types/order-status';
