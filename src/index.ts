@@ -20,3 +20,7 @@ export * from './events/event-created-events';
 export * from './events/event-updated-events';
 export * from './events/subjects';
 export * from './events/types/order-status';
+export * from './events/order-created-events';
+export * from './events/order-cancelled-events';
+export * from './events/expiration-complete-event';
+export * from './events/payment-done-event';
