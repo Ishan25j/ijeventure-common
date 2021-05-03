@@ -7,6 +7,7 @@ export interface EventUpdatedEvent {
         id: string;
         creatorId: string;
         date: string;
+        name: string;
         ticketLeft: number;
         price: number;
         version: number;
