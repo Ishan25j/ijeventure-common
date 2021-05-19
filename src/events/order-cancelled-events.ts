@@ -2,9 +2,9 @@ import { Subjects } from "./subjects";
 
 
 export interface OrderCancelledEvent {
-    source?: 'sell';
     subject: Subjects.OrderCancelled;
     data: {
+        source?: 'sell';
         id: string;
         version: number;
         event: {
