@@ -10,6 +10,8 @@
 *       The order has successfully reserved the ticket and waiting for payment
 * - Complete:
 *       The order has reserved the ticket and the user has provided the payment successfully
+* - Sold:
+*       The ticket of the event is sold
 */
 
 export enum OrderStatus {
@@ -17,5 +19,6 @@ export enum OrderStatus {
     Created = 'created',
     Cancelled = 'cancelled',
     AwaitingPayment = 'awaiting:payment',
-    Complete = 'complete'
+    Complete = 'complete',
+    Sold = 'sell'
 }
